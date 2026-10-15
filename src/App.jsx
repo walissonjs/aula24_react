@@ -1,11 +1,16 @@
 import './App.css';
 import { Header } from "./Components/Header"; // também poderia ficar entre aspas simples
+import Home from './Pages/Home';
 
 function App() {
   return (
     <>
       <Header/>
-      <h2> Ok! Operando normal.</h2>
+        <main>
+          <Home/>
+        </main>
+      
+      <h4> Ok! Operando normal.</h4>
     </>
   );
 }
