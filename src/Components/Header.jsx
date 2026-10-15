@@ -8,9 +8,9 @@ export function Header( {brand, description, children} ) {
         <>
             <header className={style.header}>
                 <div className={style.brand}>
-                    <span className={style.logo}>GENERATION </span>
+                    <span className={style.logo}>GT4 </span>
                     <div>
-                        <strong>{brand}</strong>
+                        <strong>{brand}</strong> {/* brand = marca */}
                             <span>{description}</span>
                     </div>
                 </div>

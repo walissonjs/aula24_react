@@ -1,4 +1,3 @@
-import "./Home.css";
 import Greetings from "../Components/Greetings";
 
 

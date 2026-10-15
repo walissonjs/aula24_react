@@ -1,14 +1,10 @@
 .header {
-    font-size: 3.rem;
-    line-height: 1.1;
-    color: rgb(215, 218, 8);
-    font-weight: bolder;
     align-items: center;
-    border-bottom: 1px solid #1e293b;
+    border-bottom: 2px solid #2978ef;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: auto;
+    max-width: 1120px;
     padding: 1.25rem 2rem;
 }
 
@@ -35,6 +31,7 @@
 }
 
 .logo {
+    justify-content: center;
     align-items: center;
     background: #14b8a6;
     border-radius: 0.7rem;
@@ -42,9 +39,8 @@
     display: flex !important;
     font-size: 1rem;
     font-weight: 800;
-    height: 2.25rem;
-    justify-content: center;
-    width: auto;
+    height: 2rem;
+    width: 2.5rem;
 }
 
 .navigation {
