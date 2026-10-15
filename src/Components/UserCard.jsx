@@ -3,7 +3,7 @@ import style from './Header.module.css'; {/* style é um alias = apelido, ou sej
 const UserCard = ({
         name,
         age,
-        profession,
+        profission,
         avatarUrl,
         isMentor = false,
         children
@@ -21,7 +21,7 @@ const UserCard = ({
                                 {isMentor && <span className = {style.badge}>Mentor</span>}
                             </div>
                             
-                            <p className = {style.profission}> {Profission} </p>
+                            <p className = {style.profission}> {profission} </p>
                             <p className = {style.age}> {age} anos </p>
                             {children}
                         
